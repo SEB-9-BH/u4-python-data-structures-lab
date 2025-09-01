@@ -9,7 +9,7 @@
 # - Use a loop to print each element.
 
 def example_list_function():
-  example_list = ['element1', 'element2', 'element3']
+  example_list = ["element1", "element2", "element3"]
   for element in example_list:
       print(element)
 
@@ -23,10 +23,10 @@ example_list_function()
 # Assign the last student's name to a variable named last_student.
 
 def manage_students():
-    students=["ahmed","abood","mohammed","husain"]
-    first_student=students[1]
-    last_student=students[-1]
-    return(first_student,last_student)
+    students = ["Abdulla", "Ahmed", "Husain", "Salman"]
+    first_student = students[1]
+    last_student = students[-1]
+    return(first_student, last_student)
 
 print('Exercise 1:', manage_students())
 
@@ -38,10 +38,10 @@ print('Exercise 1:', manage_students())
 # Use a for loop to iterate over the strings in foods and append each string to meal.
 
 def combine_foods():
-    foods=("pizza","pasta","burger","fries")
-    meal=""
+    foods = ("Tacos", "Pizza", "Burger", "Quesadillas")
+    meal = ""
     for food in foods:
-        meal+=food+" "
+        meal += food+" "
     return meal
 print('Exercise 2:', combine_foods())
 
@@ -51,8 +51,8 @@ print('Exercise 2:', combine_foods())
 # Using the slice operator, assign a new tuple containing only the last two food strings in the foods to a variable named last_two_foods.
 
 def slice_foods():
-    foods=("pizza","pasta","burger","fries")
-    last_two_foods=foods[-2:]
+    foods = ("Tacos", "Pizza", "Burger", "Quesadillas")
+    last_two_foods = foods[-2:]
     return(last_two_foods)
 print('Exercise 3:', slice_foods())
 
@@ -63,8 +63,8 @@ print('Exercise 3:', slice_foods())
 # Using the home_town dictionary, assign to a variable named home_town_message a string with this format: "I was born in <city>, <state> - population of <population>"
 
 def hometown_info():
-    home_town={"city":"bahrain","state":"manama","population":13}
-    home_town_message=f"I was born in {home_town['city']}, {home_town['state']} - population of {home_town['population']}"
+    home_town = {"city": "Bahrain", "state": "Manama", "population": 13}
+    home_town_message = f"I was born in {home_town["city"]}, {home_town["state"]} - population of {home_town["population"]}"
     return(home_town_message)
     
 print('Exercise 4:', hometown_info())
