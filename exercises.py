@@ -1,4 +1,4 @@
-'''
+
 # Exercise 0: Example
 #
 # This is a practice exercise to familiarize you with basic Python data structures.
@@ -64,7 +64,7 @@ def slice_foods():
 # Call the function and print the result
 print('Exercise 3:', slice_foods())
 
-'''
+
 # Exercise 4: Dictionaries and String Formatting
 #
 # Create a dictionary named home_town containing the keys of city, state, and population.
